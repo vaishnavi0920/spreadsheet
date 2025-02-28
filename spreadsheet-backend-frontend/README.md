@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Spreadsheet Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based spreadsheet application that allows users to create, edit, and manage spreadsheets efficiently. This project provides essential spreadsheet functionalities such as formula computation, cell formatting, and data persistence.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1. **Basic Spreadsheet Operations**
+- Create and edit spreadsheets in a user-friendly interface.
+- Support for multiple rows and columns.
+- Save and load spreadsheet data.
 
-### `npm start`
+### 2. **Formula Support**
+- Supports basic arithmetic operations (`+`, `-`, `*`, `/`).
+- Implemented functions like `SUM`, `AVG`, and `MAX` for data calculations.
+- Real-time updates when cell values are changed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. **Cell Referencing**
+- Allows referencing other cells for dynamic calculations (e.g., `=A1+B2`).
+- Supports relative and absolute cell referencing.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4. **Cell Formatting**
+- Modify text styles (bold, italic, underline).
+- Change cell background color.
+- Adjust column width and row height.
 
-### `npm test`
+### 5. **Undo & Redo Operations**
+- Enables reverting or reapplying previous actions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 6. **Data Persistence**
+- Stores spreadsheet data locally using browser storage.
+- Supports export/import functionality for saving and loading spreadsheets.
 
-### `npm run build`
+## Usage
+- Open the application in your browser.
+- Start entering data into cells and use formulas for calculations.
+- Use formatting options to customize the spreadsheet appearance.
+- Save or export your spreadsheet for future use.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend (if applicable)**: Node.js, Express
+- **Storage**: LocalStorage, JSON-based export/import
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+Feel free to contribute by opening issues or submitting pull requests. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
